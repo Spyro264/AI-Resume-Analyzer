@@ -6,7 +6,7 @@ import Home from "../Pages/Home";
 const Index = () => {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/resumeoverview" element={<Resumeoverview />} />
     </Routes>
   );
