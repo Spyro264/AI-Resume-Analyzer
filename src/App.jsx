@@ -1,20 +1,12 @@
-
-import Navbar from './components/Navbar';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Contact from './Pages/Contact';
-
+import { Box } from "@mui/material";
+import Index from "./routes/Index";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Contact />
-     
-    </div>
-  )
-}
+    <Box>
+      <Index />
+    </Box>
+  );
+};
 
-export default App
+export default App;
